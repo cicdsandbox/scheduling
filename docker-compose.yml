@@ -1,0 +1,6 @@
+version: '2'
+services:
+  backend:
+    image: glows/scheduling-service
+    ports:
+     - "8081:8080"
